@@ -17,7 +17,7 @@ La communication est de type 9600 N 8 1
 
 Cela tourne sous un conteneur Proxmox, Debian 12
 
-J'ai plainement concience que la solution n'est pas optimal mais j'ai fait comme  j'ai pu car je n'ai trouvé aucun projet sur ce type de BMS et je n'ai trouvé qu'un logiciel Windows fonctionnant avec.
+J'ai pleinement concience que la solution n'est pas optimale mais j'ai fait comme  j'ai pu car je n'ai trouvé aucun projet sur ce type de BMS et je n'ai trouvé qu'un logiciel Windows fonctionnant avec.
 
 Je suis donc ouvert à toutes critiques dans la mesures où celle-ci seront constructrices.
 
