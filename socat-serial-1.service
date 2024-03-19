@@ -1,0 +1,15 @@
+[Unit]
+Description=Socat Serial 1
+#Before=my-other.service
+
+[Service]
+Type=simple
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=socat-serial-1
+
+ExecStart=/usr/bin/socat pty,link=/dev/ttyV0,raw  tcp:192.168.10.49:6126
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
